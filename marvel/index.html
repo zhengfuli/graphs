@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<!--
+Note: Form fields did not appear when using IP.  Use localhost if local.
+
+
+Also see
+https://beta.observablehq.com/@mbostock/d3-force-directed-graph
+
+-->
 <meta charset="utf-8">
 <style>
 
@@ -11,12 +19,10 @@
   stroke: #fff;
   stroke-width: 1.5px;
 }
-
-
 </style>
 <body>
 <svg width="960" height="600"></svg>
-<script src="d3.v4.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
 <script>
 
@@ -25,7 +31,7 @@ var svg = d3.select("svg"),
     height = +svg.attr("height");
 
 // Call zoom for svg container.
-svg.call(d3.zoom().on('zoom', zoomed));
+svg.call(d3.zoom().on('zoom', zoomed)); // Zooms when double-clicking anywhere.
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -121,7 +127,13 @@ d3.json("marvel.json", function(error, graph) {
           .on("end", dragended));
 
   node.append("title")
-      .text(function(d) { return d.name; });
+      .text(function(d) { return d.name; }); // Title appears when rolling over.
+
+  node.append("text")
+      .attr("dx", 0)
+      .attr("dy", "1.5em")
+      .attr("text-anchor", "middle")
+      .text(function(d) { return d.name });
 
   simulation
       .nodes(graph.nodes)
