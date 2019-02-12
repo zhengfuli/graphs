@@ -1,10 +1,12 @@
 # graphs
 
-(O'Reilly Animal Book - Interactive Data Visualization by Scott Murray)[https://learning.oreilly.com/library/view/interactive-data-visualization/9781491921296/]
+[O'Reilly Animal Book - Interactive Data Visualization by Scott Murray](https://learning.oreilly.com/library/view/interactive-data-visualization/9781491921296/)
 
+[Google Knowledge Graph API]
+(https://developers.google.com/knowledge-graph/)
 
-Linear Regression for Scatter Plot
-https://bl.ocks.org/HarryStevens/be559bed98d662f69e68fc8a7e0ad097
+[Linear Regression for Scatter Plot]
+(https://bl.ocks.org/HarryStevens/be559bed98d662f69e68fc8a7e0ad097)
 
 
 https://beta.observablehq.com/@mbostock/streamgraph-transitions
