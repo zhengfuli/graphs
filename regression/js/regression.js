@@ -70,7 +70,9 @@ function getDimensions(x,y){
 }
 
 function updateTitle(x,y){
-  var title = d3.select("#title").text("Linear Regression: "+x+" vs "+y);
+  //var title = d3.select("#title").text("Linear Regression:");
+  //var subtitle = d3.select("#subtitle").text(x+" vs "+y);
+  var title = d3.select("#title").text(x+" vs "+y);
 }
 
 // returns slope, intercept and r-square of the line

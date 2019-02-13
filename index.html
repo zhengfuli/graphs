@@ -6,32 +6,31 @@
   <meta name="googlebot" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  
   <script type="text/javascript" src="../graphs/js/showdown.min.js"></script>
   
 
 <!--
+  Font experiments
+
   <link id="//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" media="all">
 
   <link rel='stylesheet' id='googlefont-css' href='//fonts.googleapis.com/css?family=Rokkitt%3A400%2C700%7CRoboto+Condensed%3A400italic%2C700italic%2C400%2C700&#038;ver=4.7.5' type='text/css' media='all' />
 
-<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:700,300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:700,300" rel="stylesheet">
 
-    font-familyX: "Roboto Condensed"; /* Crap, try just Roboto */
+    font-familyX: "Roboto Condensed"; /* Ugh, try just Roboto */
     font-familyX: 'Roboto', sans-serif;
     font-familyX: "Open Sans Condensed"; /* Also try Open Sans Light
     font-familyX: '',  Light, Lato, sans-serif;
     /* Open Sans Light,  */
 -->
 
-
-  <!--
+<!--
   <script type="text/javascript" src="lib/d3.v5.min.js"></script>
 -->
   <script type="text/javascript" src="//d3js.org/d3.v3.js"></script>
 
   <style id="compiled-css" type="text/css">
-  /* cyrillic */
   body {
     margin:0px;
     background: #fff;
@@ -44,7 +43,7 @@
     backgroundX: #000;
     border: none;         /* Reset default border */
     height: 100vh;        /* Viewport-relative units */
-    width: 100vw;
+    width: 100%;
   }
   #header {
     height: 70px;
@@ -116,9 +115,9 @@ var resizable = d3.select('#resizable');
 var resizer = d3.select('#resizer');
 var iframe = d3.select('.iframe');
 
-//window.addEventListener("touchstart", func, {passive: true} );
-
-// Issue:
+// To investigate further:
+// window.addEventListener("touchstart", func, {passive: true} );
+// Console warning message occurs in Chrome mobile view: Using passive event handlers #35
 // https://github.com/d3/d3-drag/issues/35
 
 var dragResize = d3.behavior.drag()
@@ -161,9 +160,9 @@ function consoleLog(text)
     }
     */
 
-loadMarkupPage("../HW2-lheyns3/readme.md", "markupAsHtml");
-loadMarkupPage("../graphs/readme.md", "readmeDiv");
-function loadMarkupPage(pagePath, divID) {
+loadMarkupPage("intro.md", "markupAsHtml", "mainframe");
+loadMarkupPage("readme.md", "readmeDiv", "_blank");
+function loadMarkupPage(pagePath, divID, target) {
     d3.text(pagePath, function(data) {
       var converter = new showdown.Converter(),
       html = converter.makeHtml(data);
@@ -172,7 +171,7 @@ function loadMarkupPage(pagePath, divID) {
       //setTimeout(function(){ 
         var elems = document.getElementsByTagName('a');
         for (var i = 0; i < elems.length; i++) {
-          elems[i].setAttribute('target', 'mainframe');
+          elems[i].setAttribute('target', 'mainframe', target);
         }
       //}, 1000);
     });
@@ -193,7 +192,7 @@ function loadMarkupPage(pagePath, divID) {
   </div>
 
   <div class="headerRect"><b>Topic</b> <div class="arrowdown"></div>
-  <br>Buildings and Infrastructure
+  <br>Infrastructure
   </div>
   
   <div class="headerRect"><b>Category</b> <div class="arrowdown"></div>
@@ -209,7 +208,7 @@ function loadMarkupPage(pagePath, divID) {
 </div>
 
 <div id="mainarea">
-  <iframe src="../HW2-lheyns3/Q2/graph.html" class="iframe" name="mainframe"></iframe>
+  <iframe src="regression/index.html" class="iframe" name="mainframe"></iframe>
 </div>
 
 <div style="border-top: 1px solid #ccc; padding:40px; clear:both">
