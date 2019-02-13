@@ -161,7 +161,7 @@ function consoleLog(text)
     */
 
 loadMarkupPage("intro.md", "markupAsHtml", "mainframe");
-loadMarkupPage("readme.md", "readmeDiv", "_blank");
+loadMarkupPage("README.md", "readmeDiv", "_blank");
 function loadMarkupPage(pagePath, divID, target) {
     d3.text(pagePath, function(data) {
       var converter = new showdown.Converter(),
