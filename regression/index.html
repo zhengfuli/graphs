@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Linear Regression and Update</title>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+
+  <body>
+    <div id="title"></div>
+    <text id="equation"></text>
+    <div id="graph-wrapper">
+
+      <div id="graph-wrapper-y">
+        <text>Y-Axis</text>
+        <select id="graph-picklist-y" class="graph-picklist">
+          <option value="Rating" selected>Average Rating</option>
+          <option value="Count">Attendee Count</option>
+          <option value="Duration">Duration</option>
+        </select>
+      </div>
+
+      <div id="graph-wrapper-x">
+        <text>X-Axis</text>
+        <select id="graph-picklist-x" class="graph-picklist">
+          <option value="Rating">Average Rating</option>
+          <option value="Count" selected>Attendee Count</option>
+          <option value="Duration">Duration</option>
+        </select>
+      </div>
+
+    </div>
+  </body>
+
+  <script type="text/javascript" src="js/data.js"></script>
+  <script type="text/javascript" src="js/regression.js"></script>
+
+</html>
