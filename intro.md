@@ -2,15 +2,13 @@
 
 How long is log?  
 
-A right-angle triangle on a flat surface will gradually become a circle if the flat surface curves into a sphere.  
+A triangle on a flat surface will gradually become a circle if the flat surface curves into a sphere.  
 
-A circle will gradually become a point if the spherical surface below it accelerates away while it remains inert yet bound to the surface.  
+A circle on a sphere will appear to become a point if the sphere expands at an accelerating rate while the circle remains inert.  
+
+
+[GAN Lab](https://ieeexplore.ieee.org/abstract/document/8440049) - Deep Generative Models using JavaScript  
 <br>
-
-
-
-[GAN Lab](https://ieeexplore.ieee.org/abstract/document/8440049)
-
 
 ## Clustering
 

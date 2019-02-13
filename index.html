@@ -169,9 +169,9 @@ function loadMarkupPage(pagePath, divID, target) {
       document.getElementById(divID).innerHTML = html;
 
       //setTimeout(function(){ 
-        var elems = document.getElementsByTagName('a');
+        var elems = document.getElementById(divID).getElementsByTagName('a');
         for (var i = 0; i < elems.length; i++) {
-          elems[i].setAttribute('target', 'mainframe', target);
+          elems[i].setAttribute('target', target);
         }
       //}, 1000);
     });
@@ -196,7 +196,7 @@ function loadMarkupPage(pagePath, divID, target) {
   </div>
   
   <div class="headerRect"><b>Category</b> <div class="arrowdown"></div>
-  <br>Roadways
+  <br>Networks
   </div>
   <div class="headerRect"><b>Time</b> <div class="arrowdown"></div>
   <br>Nov 2018 to Jan 2019</div>

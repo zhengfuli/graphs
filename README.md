@@ -6,6 +6,7 @@
 [Google Knowledge Graph API]
 (https://developers.google.com/knowledge-graph/)
 
+--
 
 Site: [datascape.github.io/graphs]
 (https://datascape.github.io/graphs/)
