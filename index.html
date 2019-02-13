@@ -1,6 +1,6 @@
 <html><head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>Semantic Space</title>
+  <title>DataScape - Graphs</title>
   <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
@@ -171,7 +171,13 @@ function loadMarkupPage(pagePath, divID, target) {
       //setTimeout(function(){ 
         var elems = document.getElementById(divID).getElementsByTagName('a');
         for (var i = 0; i < elems.length; i++) {
-          elems[i].setAttribute('target', target);
+          // <!--target seems to be encrypted
+          if (elems[i].text.includes("Concept")) {
+            //alert('here')
+            elems[i].setAttribute('target', "_blank");
+          } else {
+            elems[i].setAttribute('target', target);
+          }
         }
       //}, 1000);
     });
