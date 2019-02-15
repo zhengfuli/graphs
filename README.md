@@ -6,7 +6,7 @@
 [O'Reilly - Interactive Data Visualization by Scott Murray](https://learning.oreilly.com/library/view/interactive-data-visualization/9781491921296/)
 
 [Dash](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503) - HTML from Python with React and Flask, by Plotly
-<br><br>
+<br>
 
 ### Clustering
 
@@ -16,6 +16,16 @@
 [Visualizing DBSCAN Clustering]
 (https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
 
+
+### Wordmap Topic Examples
+
+Reclaiming Carbon  
+Restoring Natural Waterways   
+Clean Energy Sources  
+Carcinogen Free Manufacturing  
+Living Building Challenge  
+Upwardly Mobile Workforce  
+Reduced Packaging  
 
 --
 
