@@ -17,7 +17,7 @@
 (https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
 
 
-### Wordmap Topic Examples
+### SMM Topic Clusters
 
 Reclaiming Carbon  
 Restoring Natural Waterways   
@@ -25,7 +25,12 @@ Clean Energy Sources
 Carcinogen Free Manufacturing  
 Living Building Challenge  
 Upwardly Mobile Workforce  
+Recycling Plastics  
+Super Wood and Nano Wood  
+Metal-Organic Frameworks (MOF)  
 Reduced Packaging  
+Hands-Free Input Devices  
+Heads-Up Collaborative Computing  
 
 --
 
