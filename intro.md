@@ -24,14 +24,14 @@ Our Project: ConceptNet and Google Knowledge Graph will be used to generate sema
 
 [Regression Line with rSquared value](regression/index.html)
 
-[CodeFlower](http://www.redotheweb.com/CodeFlower/) - Source Code Visualization
+[CodeFlower](https://www.redotheweb.com/CodeFlower/) - Source Code Visualization
 
 ### Pycortex
 
 Pycortex is a python-based toolkit for surface visualization of fMRI data
 
 [Overview](https://news.berkeley.edu/2016/04/27/brain-thesaurus/) | 
-[3D Brain Map](http://gallantlab.org/brainviewer/huthetal2012/) | 
+[3D Brain Map](https://gallantlab.org/brainviewer/huthetal2012/) | 
 [GitHub<!--target-->](https://github.com/gallantlab/pycortex)
 <br>
 
