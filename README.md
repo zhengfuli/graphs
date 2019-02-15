@@ -31,7 +31,9 @@ Recycling Plastics
 Super Wood and Nano Wood  
 Metal-Organic Frameworks (MOF)  
 Reduced Packaging  
-Shared Mobility API   
+Shared Mobility API  
+Shipping Distance Optimization  
+Local Sourcing  
 Hands-Free Input Devices  
 Heads-Up Collaborative Computing  
 
