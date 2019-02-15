@@ -12,9 +12,7 @@ Our Project: ConceptNet and Google Knowledge Graph will be used to generate sema
 
 [Sustainable Materials Management (SMM)](https://www.epa.gov/smm)
 
-[Data USA Visualizations](https://datausa.io/) - Python, D3.js and Flickr
-
-<br>
+[Data USA Visualizations](https://datausa.io/) - Python, D3.js and Flickr<br>
 
 
 ### Graphs
