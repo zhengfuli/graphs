@@ -16,30 +16,7 @@
 (http://tech.nitoyon.com/en/blog/2013/11/07/k-means/)
 
 [Visualizing DBSCAN Clustering]
-(https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
-
-
-### SMM Topic Clusters
-
-Reclaiming Carbon  
-Restoring Natural Waterways   
-Clean Energy Sources  
-Carcinogen Free Manufacturing  
-Living Building Challenge  
-Upwardly Mobile Workforce  
-Recycling Plastics  
-Super Wood and Nano Wood  
-Metal-Organic Frameworks (MOF)  
-Reduced Packaging  
-Shared Mobility API  
-Shipping Distance Optimization  
-Local Sourcing  
-Hands-Free Input Devices  
-Heads-Up Collaborative Computing  
-
---
-
-[datascape.github.io/graphs](https://datascape.github.io/graphs/)
+(https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/) 
 
 
 <!--

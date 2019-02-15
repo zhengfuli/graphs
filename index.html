@@ -111,6 +111,11 @@
     max-height: 100%;
     margin: 50px;
   }
+  .sideBySide {
+    float:left;
+    padding-right:50px;
+    padding-bottom:30px;
+  }
   </style>
 
 
@@ -168,6 +173,8 @@ function consoleLog(text)
 
 loadMarkupPage("intro.md", "markupAsHtml", "mainframe");
 loadMarkupPage("README.md", "readmeDiv", "_blank");
+loadMarkupPage("topics.md", "topicsDiv", "mainframe");
+
 function loadMarkupPage(pagePath, divID, target) {
     d3.text(pagePath, function(data) {
       var converter = new showdown.Converter(),
@@ -225,7 +232,12 @@ function loadMarkupPage(pagePath, divID, target) {
 </div>
 
 <div style="border-top: 1px solid #ccc; padding:40px; clear:both">
-  <div id="readmeDiv"></div>
+  <div id="readmeDiv" class="sideBySide"></div>
+  <div id="topicsDiv" class="sideBySide"></div>
+</div>
+
+<div style="clear:both; padding:40px; border-top: 1px solid #eee">
+  <a href="https://datascape.github.io/graphs/">datascape.github.io/graphs</a>
 </div>
 
 </body>
