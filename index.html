@@ -40,7 +40,6 @@
   body {
     margin:0px;
     background: #fff;
-    
     font-size: 12px;
     font-family: 'Lato', sans-serif;
   }
@@ -89,6 +88,11 @@
     float:left;
     overflow:hidden;
   }
+  @media (max-width: 600px) {
+    #resizable {
+      width: 100%;
+    }
+  }
   #resizer {
     position: absolute;
     width: 6px;
@@ -115,6 +119,13 @@
     float:left;
     padding-right:50px;
     padding-bottom:30px;
+  }
+
+  @media (max-width: 600px) {
+    #header {
+      display:none;
+    }
+
   }
   </style>
 
