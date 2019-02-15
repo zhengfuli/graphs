@@ -7,7 +7,7 @@ Carcinogen Free Manufacturing
 Living Building Challenge  
 Upwardly Mobile Workforce  
 Recycling Plastics  
-Nano Wood and Super Wood 
+Nano Wood and Super Wood  
 Metal-Organic Frameworks (MOF)  
 Reduced Packaging  
 Shared Mobility API  
