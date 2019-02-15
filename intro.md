@@ -1,6 +1,6 @@
 # DataScape  
 
-Project Proposal: ConceptNet and Google Knowledge Graph will be used to generate semantic wordmaps based on Sustainable Materials Management (SMM) topics and Points of Light (POL) volunteer project categories. Topic clusters will be related to the Google News API. Wordmap themes will be displayed with D3 graphs, international maps, and (time permitting) interactive brain voxel diagrams using pycortex.  
+<b>Project Proposal:</b> Using ConceptNet and Google Knowledge Graph, we'll generate semantic wordmaps based on Sustainable Materials Management (SMM) topics and Points of Light (POL) volunteer project opportunities and categories. Topic clusters will be related to the Google News API. Wordmap trees will be navigable using split-screen displays combined with other D3 graphs, international maps, and (time permitting) interactive brain voxel diagrams using pycortex.  
 
 [ConceptNet.io<!--target-->](http://ConceptNet.io) - Multilingual Knowledge Graph
 
