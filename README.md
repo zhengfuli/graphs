@@ -5,6 +5,8 @@
 
 [O'Reilly - Interactive Data Visualization by Scott Murray](https://learning.oreilly.com/library/view/interactive-data-visualization/9781491921296/)
 
+[Google News API](https://newsapi.org/s/google-news-api)
+
 [Dash](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503) - HTML from Python with React and Flask, by Plotly
 <br>
 
@@ -29,6 +31,7 @@ Recycling Plastics
 Super Wood and Nano Wood  
 Metal-Organic Frameworks (MOF)  
 Reduced Packaging  
+Shared Mobility API   
 Hands-Free Input Devices  
 Heads-Up Collaborative Computing  
 
