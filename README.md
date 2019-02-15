@@ -5,7 +5,7 @@
 
 [O'Reilly - Interactive Data Visualization by Scott Murray](https://learning.oreilly.com/library/view/interactive-data-visualization/9781491921296/)
 
-[Dash](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503) - web pages from Python with React and Flask from Plotly
+[Dash](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503) - HTML from Python with React and Flask, from Plotly
 <br><br>
 
 ### Clustering
