@@ -176,7 +176,7 @@ function loadMarkupPage(pagePath, divID, target) {
         for (var i = 0; i < elems.length; i++) {
           // <!--target seems to be encrypted
           if (elems[i].text.includes("Concept") || elems[i].text.includes("American") 
-            || elems[i].text.includes("Google") || elems[i].text.includes("GitHub")) {
+            || elems[i].text.includes("Google") || elems[i].text.includes("GitHub") || elems[i].text.includes("Brain")) {
             //alert('here')
             elems[i].setAttribute('target', "_blank");
           } else {
