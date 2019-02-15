@@ -21,6 +21,10 @@
 
 <!--
 
+Training GANs using Google Colaboratory!
+https://towardsdatascience.com/training-gans-using-google-colaboratory-f91d4e6f61fe
+
+
 Elastic.io
 
 NIVIDIA RAPIDS	https://rapids.ai/
