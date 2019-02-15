@@ -29,7 +29,8 @@ Our Project: ConceptNet and Google Knowledge Graph will be used to generate sema
 
 ### Pycortex
 
-Pycortex is a python-based toolkit for surface visualization of fMRI data
+Pycortex is a python-based toolkit for surface visualization of 
+<span style="white-space: nowrap;">fMRI data.</span>
 
 [Overview](https://news.berkeley.edu/2016/04/27/brain-thesaurus/) | 
 [3D Brain Map<!--target-->](http://gallantlab.org/brainviewer/huthetal2012/) | 
