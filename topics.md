@@ -2,7 +2,7 @@
 
 Reclaiming Carbon  
 Restoring Natural Waterways  (clean water, swimming, rivers, lakes, public, parks)   
-Clean Energy Sources  (solar, geothermal, hydrogen, 5th generation nuclear)  
+Clean Energy Sources  (solar, geothermal, hydrogen, 4th-generation nuclear)  
 Carcinogen Free Manufacturing  (toxin free)  
 Living Building Challenge  (7 petals: energy, equity, health, beauty, materials, site, water)  
 Upwardly Mobile Workforce (gig economy, mentors, salary)  
