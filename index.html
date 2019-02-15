@@ -10,6 +10,9 @@
   
 
 <!--
+  Elastic.co has a free Basic plan
+  https://www.elastic.co/subscriptions
+
   Font experiments
 
   <link id="//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" media="all">
@@ -78,7 +81,7 @@
 
   #resizable {
     position: relative;
-    width: 35%;
+    width: 25%;
     background: #fff;
     float:left;
     overflow:hidden;
@@ -172,7 +175,8 @@ function loadMarkupPage(pagePath, divID, target) {
         var elems = document.getElementById(divID).getElementsByTagName('a');
         for (var i = 0; i < elems.length; i++) {
           // <!--target seems to be encrypted
-          if (elems[i].text.includes("Concept")) {
+          if (elems[i].text.includes("Concept") || elems[i].text.includes("American") 
+            || elems[i].text.includes("Google") || elems[i].text.includes("GitHub")) {
             //alert('here')
             elems[i].setAttribute('target', "_blank");
           } else {
@@ -214,7 +218,7 @@ function loadMarkupPage(pagePath, divID, target) {
 </div>
 
 <div id="mainarea">
-  <iframe src="regression/index.html" class="iframe" name="mainframe"></iframe>
+  <iframe src="marvel/index.html" class="iframe" name="mainframe"></iframe>
 </div>
 
 <div style="border-top: 1px solid #ccc; padding:40px; clear:both">
