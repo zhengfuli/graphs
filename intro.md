@@ -14,7 +14,6 @@ Our Project: ConceptNet and Google Knowledge Graph will be used to generate sema
 
 [Data USA Visualizations](https://datausa.io/) - Python, D3.js and Flickr
 
-[CodeFlower](http://www.redotheweb.com/CodeFlower/) - Source Code Visualization
 <br>
 
 
@@ -27,6 +26,7 @@ Our Project: ConceptNet and Google Knowledge Graph will be used to generate sema
 
 [Regression Line with rSquared value](regression/index.html)
 
+[CodeFlower](http://www.redotheweb.com/CodeFlower/) - Source Code Visualization
 
 ### Pycortex
 
