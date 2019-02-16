@@ -48,6 +48,7 @@
     backgroundX: #000;
     border: none;         /* Reset default border */
     height: 100vh;        /* Viewport-relative units */
+    height: 95%;
     width: 100%;
   }
   #header {
@@ -107,13 +108,16 @@
   }
   #mainarea {
     overflow: auto;
-    background: #efefef;
-    border: 1px solid #ddd;
     height: 100%;
     height: 66%;
     min-height: 300px;
     max-height: 100%;
     margin: 50px;
+    position: relative;
+  }
+  #mainarea iframe {
+    background: #efefef;
+    border: 1px solid #ddd;
   }
   .sideBySide {
     float:left;
@@ -239,12 +243,15 @@ function loadMarkupPage(pagePath, divID, target) {
 </div>
 
 <div id="mainarea">
-  <iframe src="marvel/index.html" class="iframe" name="mainframe"></iframe>
+  <iframe src="marvel/index.html" class="iframe" name="mainframe"></iframe><br>
+  <div style="position:absolute; bottom:5px">
+    Embedded content. Not actual project.
+  </div>
 </div>
 
-<div style="border-top: 1px solid #ccc; padding:40px; clear:both">
+<div style="border-top: 1px solid #ccc; padding:40px; background:#fcfcfc; clear:both; overflow: auto">
   <div id="readmeDiv" class="sideBySide"></div>
-  <div id="topicsDiv" class="sideBySide"></div>
+  <div id="topicsDiv" class="sideBySide" style="border-left:1px solid #fff"></div>
 </div>
 
 <div style="clear:both; padding:40px; border-top: 1px solid #eee">
