@@ -9,11 +9,11 @@
 [Preview Jupyter Notebook within VS Code](https://towardsdatascience.com/how-to-improve-your-workflow-with-vs-code-and-jupyter-notebook-f96777f8f1bd) - Including Plotly  
 
 
-[Store tweets with Apache Spark and Apache Kafka](https://towardsdatascience.com/how-to-capture-and-store-tweets-in-real-time-with-apache-spark-and-apache-kafka-e5ccd17afb32) - LinkedIn, Themes   
+[Store tweets with Apache Spark and Apache Kafka](https://towardsdatascience.com/how-to-capture-and-store-tweets-in-real-time-with-apache-spark-and-apache-kafka-e5ccd17afb32)    
 Spark Streaming can connect with Apache Kafka, Apache Flume, Amazon Kinesis, Twitter and IOT sensors. Tweets stored in Apache Hbase, Cassandra or Apache Kudu.
 
 <!--
-[Apache Kafka] - Log as a service, AWS copied with Kinesis
+[Apache Kafka] - Log as a service, AWS copied with Kinesis. - LinkedIn, Themes 
 
 Convolutional Neural Networks (CNN) structure resembles the visual cortex of animals.
 
