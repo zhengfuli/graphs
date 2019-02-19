@@ -48,13 +48,5 @@ Pycortex is a python-based toolkit for surface visualization of
 ## Sustainable Materials Management (SMM)
 
 http://localhost:8887/smm-demo/about.html
-
-
-## Loggevity
-
-How long is log?  
-
-A triangle on a flat surface will gradually become a circle if the flat surface curves into a sphere.  
-
-A circle on a sphere will appear to become a point if the spherical surface expands faster than the circle.  
+ 
 -->
