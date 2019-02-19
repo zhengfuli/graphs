@@ -1,6 +1,6 @@
 # DataScape  
 
-<b>How it will work:</b> Enter keywords to define your theme. We'll build a wordnet from one of the following three services.  You'll select items from the WordNet to narrow your theme. Related news and images will compliment your theme.<br>
+<b>How it will work:</b> Enter keywords to define your topic. We'll build a wordnet from one of the following three services.  You'll select items from the WordNet to narrow your topic. Related news and images will compliment your selections.<br>
 
 [Semantic MediaWiki (SMW)](https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki)  
 
@@ -9,7 +9,7 @@
 [ConceptNet.io<!--target-->](http://ConceptNet.io) - Multilingual Knowledge Graph
 <br><br>
 
-<b>Predefined Topics:</b> We'll generate pre-defined themes for Sustainable Materials Management (SMM) topics and Points of Light (POL) volunteer project opportunities and categories. Topic clusters will be used to fetch Google News and Flickr images. Wordmap themes will be used to generate an international map, and (time permitting) interactive brain voxel diagrams using pycortex. 
+<b>Predefined Topics:</b> We'll provide predefined topics related to Sustainable Materials Life Cycles and Points of Light (POL) volunteer projects. Topic cluster categories will be used to fetch Google News and Flickr images. Wordmap themes will be used to generate an international map, and (time permitting) interactive brain voxel diagrams using pycortex. 
 
 ### Mapable Data
 
@@ -31,7 +31,6 @@
 [Force-Directed Graph - D3v4 and NetworkX](marvel/)
 
 [Regression Line with rSquared value](regression/index.html)
-
 
 
 ### Pycortex

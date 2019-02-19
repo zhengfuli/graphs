@@ -200,7 +200,7 @@ function loadMarkupPage(pagePath, divID, target) {
         var elems = document.getElementById(divID).getElementsByTagName('a');
         for (var i = 0; i < elems.length; i++) {
           // <!--target seems to be encrypted
-          if (elems[i].text.includes("Concept") || elems[i].text.includes("American") 
+          if (elems[i].text.includes("Concept") || elems[i].text.includes("American") || elems[i].text.includes("Additional") 
             || elems[i].text.includes("Google") || elems[i].text.includes("GitHub") || elems[i].text.includes("Brain")) {
             //alert('here')
             elems[i].setAttribute('target', "_blank");
@@ -226,11 +226,11 @@ function loadMarkupPage(pagePath, divID, target) {
   <br>Atlanta, Georgia
   </div>
 
-  <div class="headerRect"><b>Topics</b> <div class="arrowdown"></div>
+  <div class="headerRect"><b>Topics</b> (themes)<div class="arrowdown"></div>
   <br>Infrastructure, Material Flow
   </div>
   
-  <div class="headerRect"><b>Category</b> <div class="arrowdown"></div>
+  <div class="headerRect"><b>Categories</b> (clusters)<div class="arrowdown"></div>
   <br>Collaborative Networks
   </div>
   <div class="headerRect"><b>Timeframe</b> <div class="arrowdown"></div>

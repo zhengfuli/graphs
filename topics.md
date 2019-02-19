@@ -14,10 +14,5 @@ Shared Mobility API
 Shipping Distance Optimization  
 Local Sourcing  (locally made)  
 Hands-Free Input Devices  
-Heads-Up Collaborative Computing  (AR headsets)
-<!--
-
-Represent more:
-https://smmtool.app.cloud.gov/api/GAUSEEIO/indicators
-
--->  
+Heads-Up Collaborative Computing  (AR headsets)  
+[Additional - JSON](https://smmtool.app.cloud.gov/api/GAUSEEIO/indicators)
