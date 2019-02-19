@@ -9,7 +9,7 @@
 [ConceptNet.io<!--target-->](http://ConceptNet.io) - Multilingual Knowledge Graph
 <br><br>
 
-<b>Predefined Topics:</b> We'll provide predefined topics related to Sustainable Materials Life Cycles and Points of Light (POL) volunteer projects. Clusters (categories) within topics will be used to fetch Google News and Flickr images. Wordmap themes will be used to generate an international map, and (time permitting) interactive brain voxel diagrams using pycortex. 
+<b>Predefined Topics:</b> We'll provide predefined topics related to Sustainable Materials Management (SMM) and Points of Light (POL) volunteer projects. Clusters (categories) within topics will be used to fetch Google News and Flickr images. Wordmap themes will be used to generate an international map, and (time permitting) interactive brain voxel diagrams using pycortex. 
 
 ### Mapable Data
 
