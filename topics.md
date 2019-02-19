@@ -1,18 +1,18 @@
 ### SMM Topic Clusters
 
-Reclaiming Carbon  
-Restoring Natural Waterways  (clean water, swimming, rivers, lakes, public, parks)   
-Clean Energy Sources  (solar, geothermal, hydrogen, 4th-generation nuclear)  
-Carcinogen Free Manufacturing  (toxin free)  
-Living Building Challenge  (7 petals: energy, equity, health, beauty, materials, site, water)  
-Upwardly Mobile Workforce (gig economy, mentors, salary)  
-Recycling Plastics (recycling centers, conversion to [naphtha](https://www.sciencedaily.com/releases/2019/02/190206131956.htm))  
+Carcinogen Free Products (toxin free manufacturing)  
+Clean Energy  (solar, geothermal, hydrogen, 4th-generation nuclear)  
+Handsfree Devices (AR headsets, heads-up computing, hands-free devices)  
+Living Buildings  (living building challenge, 7 petals: energy, equity, health, beauty, materials, site, water)  
+Local Sourcing  (locally made, reduced shipping, package-free, local carts)    
+Metal-Organic Frameworks (mof, harvesting water from air)  
 Nano Wood and Super Wood  
-Metal-Organic Frameworks - MOF (harvesting water from air)  
+Reclaiming Carbon  
 Reduced Packaging  
-Shared Mobility API  
-Shipping Distance Optimization  
-Local Sourcing  (locally made)  
-Hands-Free Input Devices  
-Heads-Up Collaborative Computing  (AR headsets)  
-[Additional - JSON](https://smmtool.app.cloud.gov/api/GAUSEEIO/indicators)
+Restoring Waterways  (clean water, swimming, rivers, lakes, public, parks)  
+Recycling Plastics (recycling centers, conversion to [naphtha](https://www.sciencedaily.com/releases/2019/02/190206131956.htm))  
+Shared Mobility (shared mobility API, electric bikes, electric scooters)   
+Upwardly Mobility  (workforce, gig economy, mentor networks)  
+<!--
+[Additional Clusters - JSON](https://smmtool.app.cloud.gov/api/GAUSEEIO/indicators)
+-->
