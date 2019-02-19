@@ -24,14 +24,14 @@
 
 ### Graphs
 
-[CodeFlower](https://www.redotheweb.com/CodeFlower/) - Source Code Visualization
-
 [Nodes with images - Marvel Characters](infinity/)
 
 [Force-Directed Graph - D3v4 and NetworkX](marvel/)
 
+[CodeFlower](https://www.redotheweb.com/CodeFlower/) - Source Code Visualization
+<!--
 [Regression Line with rSquared value](regression/index.html)
-
+-->
 
 ### Pycortex
 
