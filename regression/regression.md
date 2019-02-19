@@ -1,7 +1,10 @@
 # Regression
 
+[Statisitcs by Jim - Stats overview site](http://statisticsbyjim.com/)
+
 [Multiple curves and legend on scatterplots]
 (https://plot.ly/~caluchko/128/larger-us-cities-have-higher-population-weighted-densities/#plot)
+Successfully downloaded to http://127.0.0.1:8887/testgraph/
 
 [Linear Regression for Scatter Plot]
 (https://bl.ocks.org/HarryStevens/be559bed98d662f69e68fc8a7e0ad097)
@@ -15,6 +18,10 @@
 [Trend Lines - linear, polynomial, exponential, logarithmic, and power regression]
 (https://bl.ocks.org/daluu/5bb59ef3f3fed3de227535da367649ba)
 
+
+[KL Divergence Test - Multiple lines might be usable for multiple steps - Python]
+(https://github.com/luizfrias/ica/blob/master/KL%20divergence%20test.ipynb)
+[Discussion](https://stats.stackexchange.com/questions/245526/comparing-two-pdfs-using-kullback-leibler-divergence)
 
 [Exponential Regression Line Using numbers.js & d3.js]
 (http://bl.ocks.org/zikes/4279121)

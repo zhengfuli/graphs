@@ -47,8 +47,7 @@
     display: block;       /* iframes are inline by default */
     backgroundX: #000;
     border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
-    height: 95%;
+    min-height: 95vh;        /* Viewport-relative units */
     width: 100%;
   }
   #header {
@@ -89,11 +88,6 @@
     float:left;
     overflow:hidden;
   }
-  @media (max-width: 600px) {
-    #resizable {
-      width: 100%;
-    }
-  }
   #resizer {
     position: absolute;
     width: 6px;
@@ -108,10 +102,7 @@
   }
   #mainarea {
     overflow: auto;
-    height: 100%;
-    height: 66%;
-    min-height: 300px;
-    max-height: 100%;
+    min-height: 100vh; 
     margin: 50px;
     position: relative;
   }
@@ -129,7 +120,16 @@
     #header {
       display:none;
     }
-
+  }
+  @media (max-width: 800px) {
+    #resizable {
+      width: 100%;
+    }
+    #mainarea {
+      width: 85%;
+      padding:0px;
+      padding-right:20px;
+    }
   }
   </style>
 

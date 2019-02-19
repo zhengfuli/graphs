@@ -135,11 +135,11 @@ d3.json("marvel.json", function(error, graph) {
           .on("drag", dragged)
           .on("end", dragended));
 
-  node.append("title")
-      .text(function(d) { return d.name; }); // Title appears when rolling over.
+  //node.append("title")
+  //    .text(function(d) { return d.name; }); // Title appears when rolling over.
 
-  node.append("text")
-      .attr("dx", 0)
+  node.append("title")
+      .attr("dx", "1.5em")
       .attr("dy", "1.5em")
       .attr("text-anchor", "middle")
       .text(function(d) { return d.name });
@@ -241,8 +241,15 @@ function dragged(d) {
 
 function dragended(d) {
   if (!d3.event.active) simulation.alphaTarget(0);
-  d.fx = null;
-  d.fy = null;
+  if (d.fixed == true) {
+    d3.select(this).classed("fixed", d.fixed = false);
+    //d.fx = null;
+  	//d.fy = null;
+  } else {
+  	d3.select(this).classed("fixed", d.fixed = true);
+  }
+
+  
 }
 
 // Zooming function translates the size of the svg container.
